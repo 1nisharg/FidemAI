@@ -8,7 +8,7 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_groq import ChatGroq
 import gradio as gr
 
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "groq_api_key"
 
 loader = PyPDFLoader("Bhagavad-Gita.pdf")
 docs = loader.load()
